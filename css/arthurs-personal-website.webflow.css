@@ -2315,6 +2315,11 @@ figcaption {
     overflow: visible;
   }
 
+  .brutalist-shadow, .brutalist-shadow-last {
+    top: 12px;
+    left: 12px;
+  }
+
   .spacer-80-60-24-16 {
     height: 60px;
     display: block;
@@ -2582,6 +2587,12 @@ figcaption {
     overflow: hidden;
   }
 
+  .brutalist-shadow {
+    width: 100%;
+    height: 100%;
+    right: 0%;
+  }
+
   .spacer-80-60-24-16 {
     height: 24px;
   }
@@ -2685,9 +2696,13 @@ figcaption {
     margin-left: 0;
     padding-top: 0;
     padding-left: 0;
-    font-family: Rubik, sans-serif;
+    font-family: Space Grotesk, sans-serif;
     font-size: 20px;
     text-decoration: none;
+  }
+
+  .nav-link.w--current {
+    font-family: Space Grotesk, sans-serif;
   }
 
   .nav-socials {
@@ -2918,7 +2933,7 @@ figcaption {
     justify-content: space-between;
     align-self: auto;
     align-items: flex-start;
-    padding: 5.5vw 24px 10vw;
+    padding: 5.5vw 24px 16vw;
     display: none;
     position: fixed;
     top: 0%;
@@ -3134,7 +3149,7 @@ figcaption {
     align-self: flex-start;
     align-items: center;
     display: flex;
-    overflow: hidden;
+    overflow: visible;
   }
 
   .mob-nav-top-container {
@@ -3533,7 +3548,7 @@ figcaption {
 
   .more-on-medium {
     width: 168px;
-    height: 324px;
+    height: 315px;
     grid-column-gap: 4px;
     background-color: #fcfcfd;
     border: 2px dashed #f77f00;
